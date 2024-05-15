@@ -1,0 +1,119 @@
+body{
+    background-image: url(images\ \(4\).jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.main {
+    margin-top: 100px;
+}
+
+input {
+    height: 60px;
+    border-radius: 10px;
+
+
+}
+
+
+
+@media (max-width:1400px) {
+
+
+    .fields {
+
+
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    .input input{
+        width: 500px;
+        height: 50px;
+    }
+
+#username{
+
+    padding-top: 30px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+    #password {
+        padding-top: 30px;
+        padding-right: 10px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+}
+
+@media (min-width:1400px) {
+
+
+    .fields {
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    #username {
+        padding-right: 300px;
+        font-size: 20px;
+        font-weight: 900;
+    
+    }
+    #password{
+        font-size: 20px;
+        font-weight: 900;
+    
+    }
+
+    
+    .input input{
+        width: 500px;
+    }
+}
+
+
+
+.nextbtn
+ {
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    width: 200px;
+    margin-left: 100px;
+
+
+}
+
+
+
+.nextbtn:hover
+ {
+    margin-top: 50px;
+    border-radius: 5px;
+    height: 35px;
+    color: white;
+    background-color: green;
+    font-weight: 900;
+    width: 200px;
+    margin-left: 100px;
+    cursor: grab;
+
+
+}

@@ -1,0 +1,145 @@
+ body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(btc3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+}
+
+h3 {
+
+    text-align: center;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.container header::before {
+    position: absolute;
+
+}
+
+h4 {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.all {
+    padding: 30px;
+    max-width: 900px;
+    position: relative;
+    width: 100%;
+    margin: 0 15px;
+
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.detail {
+    background-image: url(logo.ico);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input {
+    height: 60px;
+    border-radius: 10px;
+}
+
+
+.all form .fields {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+form .fields .input {
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3 - 15px);
+    padding: 5px;
+}
+
+
+.nextbtn,
+.backbtn {
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+
+
+}
+
+
+
+.nextbtn:hover,
+.backbtn:hover {
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    font-weight: 900;
+    cursor: grab;
+
+
+}
+
+
+
+
+
+
+
+
+.all form .form.second {
+    opacity: 0;
+    transform: translateX(100%);
+
+}
+
+form.displaypage .form.second {
+    opacity: 1;
+    transform: translateX(0);
+
+}
+
+form.displaypage .form.first {
+    opacity: 0;
+    transform: translateX(-100%);
+
+}
+
+
+form {
+    position: relative;
+    min-height: 600px;
+    margin-top: 10px;
+}
+
+.form {
+    position: absolute;
+    width: 100%;
+
+
+}

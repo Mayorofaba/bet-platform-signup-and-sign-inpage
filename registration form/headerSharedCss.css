@@ -1,0 +1,80 @@
+
+.header {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 70px;
+    margin-top: 5px;
+
+
+}
+
+.middle:hover {
+    cursor: pointer;
+}
+
+.left {
+
+    width: 180px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.left a,
+.right a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.search-bar {
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.search-icon {
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    height: 20px;
+
+
+}
+
+.right {
+    width: 200px;
+    display: flex;
+
+    justify-content: end;
+}
+
+.load {
+    margin-right: 5px;
+    background-color: blue;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.customer {
+    background-color: blue;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.icebet h4 {
+    background-color: blue;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 5px;
+}
